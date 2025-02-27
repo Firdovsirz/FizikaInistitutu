@@ -1,11 +1,12 @@
 "use cliennt";
 
-import Footer from "@/components/Footer/Footer";
+import Main from "@/pages/Main/Main";
+
 
 export default function Home() {
   return (
     <>
-      <Footer />
+      <Main />
     </>
   );
 }
