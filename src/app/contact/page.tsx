@@ -6,17 +6,6 @@ import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 
 export default function page() {
-    const mapEmbed = `
-        < iframe
-    src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.534585323807!2d49.81123201130384!3d40.374209358107564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dea14e80255%3A0xbf43d3ea73b59b7d!2sANAS%20H.M.%20Abdullayev%20Institute%20of%20Physics!5e1!3m2!1str!2saz!4v1740748973901!5m2!1str!2saz"
-    width = "600"
-    height = "450"
-    style = "border:0;"
-    allowfullscreen = ""
-    loading = "lazy"
-    referrerpolicy = "no-referrer-when-downgrade" >
-</ >
-        `;
     return (
         <>
             <Header />
