@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import styles from "./Header.module.scss";
 import EmailIcon from '@mui/icons-material/Email';
@@ -46,7 +47,9 @@ export default function Header() {
                     <li>MEDİA</li>
                     <li>XƏBƏRLƏR</li>
                     <li>ELANLAR</li>
-                    <li>ƏLAQƏ</li>
+                    <li>
+                        <Link href="/contact">ƏLAQƏ</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
