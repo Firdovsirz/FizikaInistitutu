@@ -1,4 +1,4 @@
-"use cliennt";
+"use client";
 
 import Main from "@/pages/Main/Main";
 
